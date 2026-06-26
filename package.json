@@ -1,0 +1,26 @@
+{
+  "name": "tendencias",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "build:api": "pnpm --filter api build",
+    "build:web": "pnpm --filter ./apps/web build",
+    "dev": "turbo run dev",
+    "dev:api": "pnpm --filter api dev",
+    "dev:web": "pnpm --filter ./apps/web dev",
+    "start:api": "pnpm --filter api start",
+    "start:api:prod": "pnpm --filter api start:prod",
+    "start:web": "pnpm --filter ./apps/web start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=18"
+  }
+}
