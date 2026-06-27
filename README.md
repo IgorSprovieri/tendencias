@@ -1,8 +1,8 @@
-# Tendencias
+# Têndencias
 
 Se cadastre, faça o login e veja o seu resumo do Github em um dashboard.
 
-![Dashboard do Tendencias](assets/project_sreenshot.png)
+![Dashboard do Têndencias](assets/project_sreenshot.png)
 
 ## Autor
 
@@ -12,7 +12,7 @@ igor.sprovieri@outlook.com
 
 ## Solução proposta
 
-O **Tendencias** centraliza, em um único dashboard, informações públicas do perfil GitHub associadas à conta do usuário na plataforma.
+O **Têndencias** centraliza, em um único dashboard, informações públicas do perfil GitHub associadas à conta do usuário na plataforma.
 
 No fluxo principal, o usuário se cadastra informando nome, e-mail, senha e usuário do GitHub (`github_user`), faz login e acessa uma página autenticada que exibe:
 
@@ -30,7 +30,7 @@ A autenticação usa JWT com refresh token em cookies `httpOnly` (padrão BFF no
 A aplicação está no Render e pode ser testada no link abaixo:
 
 ```
-https://tendencias-4afb.onrender.com
+https://têndencias-4afb.onrender.com
 ```
 
 - Para teste, pode ser usado o usuário `test@test.com.br` e a senha `Test123@`
@@ -141,7 +141,7 @@ O repositório inclui um `docker-compose.yml` com PostgreSQL e Redis, alinhados 
 
 | Serviço    | Porta  | Credenciais                                              |
 | ---------- | ------ | -------------------------------------------------------- |
-| PostgreSQL | `5432` | usuário `postgres`, senha `postgres`, banco `tendencias` |
+| PostgreSQL | `5432` | usuário `postgres`, senha `postgres`, banco `têndencias` |
 | Redis      | `6379` | sem autenticação                                         |
 
 Suba os containers na raiz do projeto:
@@ -182,7 +182,7 @@ Valores padrão do `.env.example`:
 
 | Variável                 | Descrição                                                         |
 | ------------------------ | ----------------------------------------------------------------- |
-| `DATABASE_URL`           | Conexão PostgreSQL (padrão: `localhost:5432/tendencias`)          |
+| `DATABASE_URL`           | Conexão PostgreSQL (padrão: `localhost:5432/têndencias`)          |
 | `JWT_SECRET`             | Segredo para assinar JWTs (mín. 16 caracteres)                    |
 | `JWT_EXPIRES_IN`         | Validade do access token (ex.: `15m`)                             |
 | `JWT_REFRESH_EXPIRES_IN` | Validade do refresh token (ex.: `7d`)                             |
