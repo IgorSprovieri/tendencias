@@ -7,8 +7,8 @@ Se cadastre, faça o login e veja o seu resumo do Github em um dashboard.
 ## Autor
 
 - Igor Sprovieri Pereira
-- **Telefone** — +55 11 99761 2295
-- **Email** — igor.sprovieri@outlook.com
+- **Telefone**: +55 11 99761 2295
+- **Email**: igor.sprovieri@outlook.com
 
 ## Solução proposta
 
